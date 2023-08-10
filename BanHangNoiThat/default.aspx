@@ -20,7 +20,6 @@
                     </div>
                     <div class="navbar">
                         <asp:HyperLink ID="HyperLink1" runat="server">Home</asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink2" runat="server">Collection</asp:HyperLink>
                         <asp:HyperLink ID="HyperLink3" runat="server">Service</asp:HyperLink>
                         <asp:HyperLink ID="HyperLink4" runat="server">Project</asp:HyperLink>
                         <asp:HyperLink ID="HyperLink5" runat="server">Contact</asp:HyperLink>

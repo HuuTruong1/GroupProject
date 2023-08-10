@@ -68,13 +68,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
-    <Content Include="collection.aspx" />
+    <Content Include="aboutStyle.css" />
+    <Content Include="App_Data\QuanLyBanNoiThat.mdf" />
+    <Content Include="App_Data\QuanLyBanNoiThat_log.ldf">
+      <DependentUpon>QuanLyBanNoiThat.mdf</DependentUpon>
+    </Content>
+    <Content Include="contactStyle.css" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="detailProduct.aspx" />
+    <Content Include="detailProductStyle.css" />
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="homeStyle.css" />
     <Content Include="project.aspx" />
+    <Content Include="projectStyle.css" />
     <Content Include="service.aspx" />
+    <Content Include="serviceStyle.css" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignIn.css" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="SignUp.css" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -85,13 +99,6 @@
     </Compile>
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="collection.aspx.cs">
-      <DependentUpon>collection.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="collection.aspx.designer.cs">
-      <DependentUpon>collection.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
@@ -106,6 +113,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="detailProduct.aspx.cs">
+      <DependentUpon>detailProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detailProduct.aspx.designer.cs">
+      <DependentUpon>detailProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -132,6 +146,20 @@
     <Compile Include="service.aspx.designer.cs">
       <DependentUpon>service.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,7 +179,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="img\" />
     <Folder Include="Models\" />
   </ItemGroup>

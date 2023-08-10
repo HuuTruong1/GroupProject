@@ -40,15 +40,6 @@ namespace BanHangNoiThat {
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
         
         /// <summary>
-        /// HyperLink2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
-        
-        /// <summary>
         /// HyperLink3 control.
         /// </summary>
         /// <remarks>
@@ -85,13 +76,22 @@ namespace BanHangNoiThat {
         protected global::System.Web.UI.WebControls.HyperLink HyperLink6;
         
         /// <summary>
-        /// avaImg control.
+        /// txtSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image avaImg;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtSearch;
+        
+        /// <summary>
+        /// btnSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSearch;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

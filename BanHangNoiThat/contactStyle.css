@@ -1,0 +1,126 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0E1630;
+    --text-color: #55607C;
+}
+
+.body {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .body .introduce {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+.introduce .title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.introduce .desc {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 6px;
+}
+
+.introduce .separate {
+    border: 1px solid #f39176;
+    margin-bottom: 24px;
+    width: 100px;
+}
+
+.introduce .social-links {
+    margin-top: 25px;
+    display: flex;
+    grid-gap: 16px;
+}
+
+    .introduce .social-links .icon {
+        background: #261C2B;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body .input-contact {
+        width: 50%;
+    }
+
+#txtName, #txtEmail, #txtSub, #txtMessage {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #171F38;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input-contact .input #txtMessage {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.input-contact .input {
+    position: relative;
+}
+
+    .input-contact .input .icon-input {
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background-color: #23253B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 1;
+    }
+
+.btnSend {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    grid-gap: 10px;
+    background-color: #171F38;
+    padding: 12px 20px;
+    width: 100%;
+    border: 2px solid #D3816D;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828FB0;
+    position: relative;
+}
+
+    .btnSend box-icon {
+        position: absolute;
+        top: 10px;
+        right: 8px;
+    }
+
+    .btnSend:hover {
+        opacity: 0.8;
+    }
